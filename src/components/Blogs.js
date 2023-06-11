@@ -4,6 +4,8 @@ import styled from 'styled-components/macro'
 import medium from '../public/medium.svg'
 import parallaxImg from '../public/parallax.png'
 import creativeImg from '../public/creative-agency.jpg'
+import maxresdefault from '../public/maxresdefault.jpg'
+
 
 const mobileWidth = '450px'
 
@@ -158,6 +160,14 @@ function Blogs(props) {
           publishicon: medium,
           img: creativeImg,
           link: "https://medium.com/@mohdniaal/bootstrap-framework-on-angular-7cd82334a1d6"
+      },
+      {
+        id: 3,
+        title: "Angular + Animate.css",
+        content: "Animate.css is a cross-browser library of CSS animations that is incredibly easy to use. Overall, the angular animation framework allows you to create animations that have the same native performance as pure CSS animations. The benefit is that you can easily add and control.",
+        publishicon: medium,
+        img: maxresdefault,
+        link: "https://medium.com/@mohdniaal/animation-in-angular-using-css-5-easy-steps-cd2b893d6d59"
       },
   ];
 
